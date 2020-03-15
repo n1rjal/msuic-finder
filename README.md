@@ -1,7 +1,7 @@
 # msuic-finder
 Music finder and player in python
 
-#modules used
+##modules used##
 Tkinter 
 Tkiner.file dialog
 Random
