@@ -9,6 +9,7 @@ def music():
           if (path==""):
               raise Exception
      except:
+          print("Make sure you put all your music and music video in same folder")
           pathf=open('path.dat','w')
           path=askdirectory(title="Music folder?")
           pathf.write(path)
